@@ -66,5 +66,5 @@ app.get('/*',(req,res)=>{
     error:'error 404'})})
 
 app.listen(port,()=>{
-    console.log('the server is on')
+    console.log('the server is on'+port)
 })
