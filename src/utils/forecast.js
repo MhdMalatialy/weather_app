@@ -10,11 +10,8 @@ const forecast=(lat,long,callback)=>{
         else if (body.message){
         callback('can`t find location ')}
         else{
-            callback(undefined,{
-                temp,
-                clouds,
-                wind_speed           
-            })
+            callback(undefined,'the tempreture is '+temp+' ,and the clude:'+clouds+
+            '  ,the wind speed: '+wind_speed)
         }
 })}
 module.exports=forecast
