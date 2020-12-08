@@ -48,9 +48,8 @@ app.get('/wheather',(req,res)=>{
             if (error){
             return res.send({error})}
             else{
-           res.send({ location,
-             forecastdata}
-           )
+           res.send({ location,forecastdata
+           } )
 
          } })}
 
